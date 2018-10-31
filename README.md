@@ -109,3 +109,4 @@ We will learn following HTML elements:
 - More elements visit https://github.com/cbracco/html5-test-page
 
 ## Part 2 Exercise
+
