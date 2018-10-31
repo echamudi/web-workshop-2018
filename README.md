@@ -77,3 +77,35 @@ We will learn following HTML elements:
         </tbody>
     </table>
     ```
+
+- Bold, Underline, Italic, and Strikethrough
+    ```html
+    <i>Italic Text</i>
+    <b>Bold Text</b>
+    <u>Underlined Text</u>
+    <s>This text has a strikethrough</s>
+    ```
+
+- Image
+    ```html
+    <img src="http://placekitten.com/1024/1024">
+    ```
+
+- Link
+    ```html
+    <a href="https://twitter.com/fcis_iu">FCIS Twitter</a>
+    ```
+
+- Division
+    ```html
+    <div>
+        First division
+    </div>
+    <div>
+        Second division
+    </div>
+    ```
+
+- More elements visit https://github.com/cbracco/html5-test-page
+
+## Part 2 Exercise
