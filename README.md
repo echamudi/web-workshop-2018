@@ -299,3 +299,79 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
              Me too
         </div>
         ```
+
+1. Float positioning
+    - CSS
+        ```css
+        .box {
+            color: white;
+            font-family: Arial;
+            font-size: 30px;
+
+            width: 200px;
+            height: 200px;
+
+            margin: 5px;
+            padding: 10px;
+
+            background: #6c5ce7;
+        }
+
+        .my-class-left {
+            float: left;
+        }
+
+        .my-class-right {
+            float: right;
+        }
+        ```
+    - HTML
+        ```html
+        <div class="box text-styling my-class-left">
+             I'm a box on left
+        </div>
+        <div class="box text-styling my-class-right">
+             I'm also a box on right
+        </div>
+        ```
+
+1. Box Shadow
+    - CSS
+        ```css
+        .box {
+            color: white;
+
+            width: 100px;
+            height: 50px;
+
+            margin: 40px;
+
+            background: white;
+        }
+
+        .shadow-1 {
+            box-shadow: 0px 0px 5px 0px #aaaaaa;
+        }
+
+        .shadow-2 {
+            box-shadow: 0px 0px 30px 0px #aaaaaa;
+        }
+
+        .shadow-3 {
+            box-shadow: 0px 0px 60px 0px #aaaaaa;
+        }
+        ```
+    - HTML
+        ```html
+        <div class="box shadow-1"></div>
+        <div class="box shadow-2"></div>
+        <div class="box shadow-3"></div>
+        ```
+
+## Part 3 Exercise
+
+Please make following page using HTML : 
+https://ezhmd.github.io/web-workshop-2018/part-3-exercise/
+
+Answer :
+https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/index.html
