@@ -116,7 +116,7 @@ https://ezhmd.github.io/web-workshop-2018/part-2-exercise/
 Answer :
 https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/index.html
 
-## Part 3 Styling
+## Part 3: CSS Basics
 
 1. Further HTML structuring
     ```html
