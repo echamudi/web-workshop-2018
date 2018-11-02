@@ -110,3 +110,4 @@ We will learn following HTML elements:
 
 ## Part 2 Exercise
 
+Please make following page using HTML : 
