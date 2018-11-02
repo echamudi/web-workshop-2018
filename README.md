@@ -327,10 +327,10 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         ```
     - HTML
         ```html
-        <div class="box text-styling my-class-left">
+        <div class="box my-class-left">
              I'm a box on left
         </div>
-        <div class="box text-styling my-class-right">
+        <div class="box my-class-right">
              I'm also a box on right
         </div>
         ```
