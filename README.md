@@ -108,7 +108,7 @@ We will learn following HTML elements:
     </div>
     ```
 
-- More elements visit https://github.com/cbracco/html5-test-page
+<!-- - More elements visit https://github.com/cbracco/html5-test-page -->
 
 ## Part 2 Exercise
 
