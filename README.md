@@ -48,37 +48,37 @@ We will learn following HTML elements:
     <!-- This is a comment -->
     ```
 
-<!-- 
-1. Table
-    ```html
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Country</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>3620001</td>
-                <td>Jack Johansson</td>
-                <td>Iceland</td>
-            </tr>
-            <tr>
-                <td>3620002</td>
-                <td>Ahmad Salamah</td>
-                <td>Jordan</td>
-            </tr>
-            <tr>
-                <td>3620003</td>
-                <td>Lie Ting Ting</td>
-                <td>China</td>
-            </tr>
-        </tbody>
-    </table>
-    ```
--->
+    <!-- 
+    1. Table
+        ```html
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3620001</td>
+                    <td>Jack Johansson</td>
+                    <td>Iceland</td>
+                </tr>
+                <tr>
+                    <td>3620002</td>
+                    <td>Ahmad Salamah</td>
+                    <td>Jordan</td>
+                </tr>
+                <tr>
+                    <td>3620003</td>
+                    <td>Lie Ting Ting</td>
+                    <td>China</td>
+                </tr>
+            </tbody>
+        </table>
+        ```
+    -->
 
 1. Bold, Underline, Italic, and Strikethrough
     ```html
