@@ -48,6 +48,7 @@ We will learn following HTML elements:
     <!-- This is a comment -->
     ```
 
+<!-- 
 1. Table
     ```html
     <table>
@@ -77,6 +78,7 @@ We will learn following HTML elements:
         </tbody>
     </table>
     ```
+-->
 
 1. Bold, Underline, Italic, and Strikethrough
     ```html
@@ -88,7 +90,7 @@ We will learn following HTML elements:
 
 1. Image
     ```html
-    <img src="http://placekitten.com/1024/1024">
+    <img src="http://placekitten.com/200/200">
     ```
 
 1. Link
@@ -116,7 +118,7 @@ https://ezhmd.github.io/web-workshop-2018/part-2-exercise/
 Answer :
 https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/index.html
 
-## Part 3: CSS Basics
+## Part 3: CSS
 
 1. Further HTML structuring
     ```html
@@ -375,3 +377,9 @@ https://ezhmd.github.io/web-workshop-2018/part-3-exercise/
 
 Answer :
 https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/index.html
+
+## Part 4: PHP
+
+1. PHP structure
+    ```php
+    ```
