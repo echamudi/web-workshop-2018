@@ -157,6 +157,21 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         <div class="big">This is my text</div>
         <div class="very-big">This is my text</div>
         ```
+        
+1. Multiple properties in one class
+    - CSS
+        ```css
+        .my-text {
+            font-size: 48px;
+            font-family: "Comic Sans MS";
+            color: brown;
+        }
+        ```
+    - HTML
+        ```html
+        <div class="my-text">This is my text</div>
+        ```
+
 ## Part 3 Exercise
 
 Please make following page using HTML : 
@@ -318,11 +333,19 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         <div class="box shadow-2"></div>
         <div class="box shadow-3"></div>
         ```
+        
 ## Part 4 Exercise
 
+Please make following page using HTML : 
+https://ezhmd.github.io/web-workshop-2018/part-4-exercise/
 
-## Part 5: PHP
+Answer :
+https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-4-exercise/index.html
+
+## Part 5: PHP Basics
 
 1. PHP structure
     ```php
     ```
+
+## Part 5 Exercise
