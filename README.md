@@ -48,38 +48,6 @@ We will learn following HTML elements:
     <!-- This is a comment -->
     ```
 
-    <!-- 
-    1. Table
-        ```html
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Country</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>3620001</td>
-                    <td>Jack Johansson</td>
-                    <td>Iceland</td>
-                </tr>
-                <tr>
-                    <td>3620002</td>
-                    <td>Ahmad Salamah</td>
-                    <td>Jordan</td>
-                </tr>
-                <tr>
-                    <td>3620003</td>
-                    <td>Lie Ting Ting</td>
-                    <td>China</td>
-                </tr>
-            </tbody>
-        </table>
-        ```
-    -->
-
 1. Bold, Underline, Italic, and Strikethrough
     ```html
     <i>Italic Text</i>
@@ -107,9 +75,7 @@ We will learn following HTML elements:
         Second division
     </div>
     ```
-
-<!-- - More elements visit https://github.com/cbracco/html5-test-page -->
-
+    
 ## Part 2 Exercise
 
 Please make following page using HTML : 
@@ -118,7 +84,7 @@ https://ezhmd.github.io/web-workshop-2018/part-2-exercise/
 Answer :
 https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/index.html
 
-## Part 3: CSS
+## Part 3: CSS Basics
 
 1. Further HTML structuring
     ```html
@@ -142,38 +108,32 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         .my-class-1 {
             color: red;
         }
-        .my-class-2 {
-            color: blue;
-        }
         ```
     - HTML
         ```html
         <div class="my-class-1">This is my text</div>
-        <div>This is my text</div>
-        <div>This is my text</div>
-        <div class="my-class-2">This is my text</div>
-        <div>This is my text</div>
         ```
-
-1. Cascading
+     
+1. Font Family
     - CSS
         ```css
         .my-class-1 {
-            color: red;
+            font-family: "Arial";
         }
         .my-class-2 {
-            color: blue;
+            font-family: "Times New Roman";
         }
+        .my-class-3 {
+            font-family: "Georgia";
+        }        
         ```
     - HTML
         ```html
-        <div>This is my text</div>
         <div class="my-class-1">This is my text</div>
         <div class="my-class-2">This is my text</div>
-        <div class="my-class-1 my-class-2">This is my text</div>
-        <div class="my-class-2 my-class-1">This is my text</div>
+        <div class="my-class-3">This is my text</div>
         ```
-
+        
 1. Font Size
     - CSS
         ```css
@@ -197,35 +157,35 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         <div class="big">This is my text</div>
         <div class="very-big">This is my text</div>
         ```
+## Part 3 Exercise
 
-1. Font Family
+Please make following page using HTML : 
+https://ezhmd.github.io/web-workshop-2018/part-3-exercise/
+
+Answer :
+https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/index.html
+
+## Part 4: More on CSS
+1. Cascading
     - CSS
         ```css
         .my-class-1 {
-            font-family: "Arial";
-            font-size: 30px;
+            color: red;
         }
         .my-class-2 {
-            font-family: "Times New Roman";
-            font-size: 30px;
+            color: blue;
         }
-        .my-class-3 {
-            font-family: "Georgia";
-            font-size: 40px;
-            color: brown;
-        }        
         ```
     - HTML
         ```html
-        <div class="my-class-1">This is my text</div>
-        <div class="my-class-2">This is my text</div>
-        <div class="my-class-3">This is my text</div>
+        <div class="my-class-1 my-class-2">This is my text</div>
+        <div class="my-class-2 my-class-1">This is my text</div>
         ```
 
-1. Border and Text Align
+1. Box Model
     - CSS
         ```css
-        .bordered-box {
+        .my-box {
             margin: 10px;
             padding: 30px;
 
@@ -235,21 +195,10 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
 
             font-size: 30px;
         }
-        .align-left {
-            text-align: left;
-        }
-        .align-right {
-            text-align: right;
-        }
-        .align-center {
-            text-align: center;
-        }
         ```
     - HTML
         ```html
-        <div class="bordered-box align-left">This is my text</div>
-        <div class="bordered-box align-right">This is my text</div>
-        <div class="bordered-box align-center">This is my text</div>
+        <div class="my-box">This is my text</div>
         ```
 
 1. Playing with boxes
@@ -369,16 +318,10 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         <div class="box shadow-2"></div>
         <div class="box shadow-3"></div>
         ```
+## Part 4 Exercise
 
-## Part 3 Exercise
 
-Please make following page using HTML : 
-https://ezhmd.github.io/web-workshop-2018/part-3-exercise/
-
-Answer :
-https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/index.html
-
-## Part 4: PHP
+## Part 5: PHP
 
 1. PHP structure
     ```php
