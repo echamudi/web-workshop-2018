@@ -76,12 +76,14 @@ We will learn following HTML elements:
     </div>
     ```
     
-## Part 2 Exercise
+### Exercise
 
-Please make following page using HTML : 
+Please make following page using HTML: 
+
 https://ezhmd.github.io/web-workshop-2018/part-2-exercise/
 
-Answer :
+Answer:
+
 https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/index.html
 
 ## Part 3: CSS Basics
@@ -130,34 +132,54 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         ```
     - HTML
         ```html
-        <div class="my-class-1">This is my text</div>
-        <div class="my-class-2">This is my text</div>
-        <div class="my-class-3">This is my text</div>
+        <div class="my-class-1">This is my first text</div>
+        <div class="my-class-2">This is my second text</div>
+        <div class="my-class-3">This is my third text</div>
         ```
     - List of web safe fonts available here: http://web.mit.edu/jmorzins/www/fonts.html
         
 1. Font Size
     - CSS
         ```css
-        .small {
+        .my-class-1 {
             font-size: 12px;
         }
-        .medium {
+        .my-class-2 {
             font-size: 20px;
         }
-        .big {
+        .my-class-3 {
             font-size: 36px;
         }
-        .very-big {
+        .my-class-4 {
             font-size: 48px;
         }
         ```
     - HTML
         ```html
-        <div class="small">This is my text</div>
-        <div class="medium">This is my text</div>
-        <div class="big">This is my text</div>
-        <div class="very-big">This is my text</div>
+        <div class="my-class-1">This is my first text</div>
+        <div class="my-class-2">This is my second text</div>
+        <div class="my-class-3">This is my third text</div>
+        <div class="my-class-4">This is my forth text</div>
+        ```
+
+1. Text align
+    - CSS
+        ```css
+        .my-class-1 {
+            text-align: left;
+        }
+        .my-class-2 {
+            text-align: center;
+        }
+        .my-class-3 {
+            text-align: right;
+        }
+        ```
+    - HTML
+        ```html
+        <div class="my-class-1">This is my first text</div>
+        <div class="my-class-2">This is my second text</div>
+        <div class="my-class-3">This is my third text</div>
         ```
         
 1. Multiple properties in one class
@@ -174,15 +196,18 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         <div class="my-text">This is my text</div>
         ```
 
-## Part 3 Exercise
+### Exercise
 
-Please make following page using HTML : 
+Please make following page using HTML:
+
 https://ezhmd.github.io/web-workshop-2018/part-3-exercise/
 
-Answer :
+Answer:
+
 https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/index.html
 
 ## Part 4: More on CSS
+
 1. Cascading
     - CSS
         ```css
@@ -199,18 +224,46 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         <div class="my-class-2 my-class-1">This is my text</div>
         ```
 
+1. Multiple classes in one element
+    - CSS
+        ```css
+        .a {
+            color: red;
+        }
+        .b {
+            font-size: 48px;
+        }
+        ```
+    - HTML
+        ```html
+        <div class="a b">This is my text</div>
+        ```
+
 1. Box Model
     - CSS
         ```css
         .my-box {
-            margin: 10px;
-            padding: 30px;
-
-            border-color: #4CAF50;
-            border-width: 2px;
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+       
+            border-color: #3d3d3d;
+            border-width: 5px;
             border-style: solid;
 
+            padding-top: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+
+            width: 500px;
+            height: 200px;
+             
+            background: #33d9b2;
+
             font-size: 30px;
+            font-family: "Helvetica";
         }
         ```
     - HTML
@@ -241,7 +294,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
             height: 100px;
 
             margin: 5px;
-                          padding: 10px;
+            padding: 10px;
 
             background: #0984e3;
         }
@@ -336,7 +389,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         <div class="box shadow-3"></div>
         ```
         
-## Part 4 Exercise
+### Exercise
 
 Please make following page using HTML : 
 https://ezhmd.github.io/web-workshop-2018/part-4-exercise/
@@ -350,4 +403,4 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-4-exercise/inde
     ```php
     ```
 
-## Part 5 Exercise
+### Exercise
