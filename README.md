@@ -113,6 +113,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         ```html
         <div class="my-class-1">This is my text</div>
         ```
+    - List of cool color hexes available here: https://flatuicolors.com/
      
 1. Font Family
     - CSS
@@ -133,6 +134,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         <div class="my-class-2">This is my text</div>
         <div class="my-class-3">This is my text</div>
         ```
+    - List of web safe fonts available here: http://web.mit.edu/jmorzins/www/fonts.html
         
 1. Font Size
     - CSS
@@ -162,7 +164,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
     - CSS
         ```css
         .my-text {
-            font-size: 48px;
+            font-size: 32px;
             font-family: "Comic Sans MS";
             color: brown;
         }
