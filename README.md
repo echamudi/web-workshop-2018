@@ -10,7 +10,7 @@ To start developing, we will use following tools:
 ## Part 2: HTML basics
 
 We will learn following HTML elements:
-1. Headings
+1. **Headings**
     ```html
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
@@ -20,12 +20,12 @@ We will learn following HTML elements:
     <h6>Heading 6</h6>
     ```
 
-1. Paragraph and Span
+1. **Paragraph and Span**
     ```html
     <p>Lorem ipsum dolor sit amet, <span>consectetur</span> adipiscing elit. Maecenas malesuada nulla vel pulvinar dapibus. Donec eu sagittis quam, nec accumsan arcu. Vivamus posuere felis eu ultrices ultricies. Praesent posuere ut purus in maximus. Sed elementum tellus ipsum, vel faucibus magna congue ac.</p>
     ```
 
-1. Ordered List and Unordered List
+1. **Ordered List and Unordered List**
     ```html
     <ol>
         <li>Chocolate</li>
@@ -38,17 +38,17 @@ We will learn following HTML elements:
         <li>Aeroplane</li>
     </ul>
     ```
-1. Horizontal Rules
+1. **Horizontal Rules**
     ```html
     <hr>
     ```
 
-1. Comment
+1. **Comment**
     ```html
     <!-- This is a comment -->
     ```
 
-1. Bold, Underline, Italic, and Strikethrough
+1. **Bold, Underline, Italic, and Strikethrough**
     ```html
     <i>Italic Text</i>
     <b>Bold Text</b>
@@ -56,17 +56,17 @@ We will learn following HTML elements:
     <s>This text has a strikethrough</s>
     ```
 
-1. Image
+1. **Image**
     ```html
     <img src="https://placekitten.com/200/200">
     ```
 
-1. Link
+1. **Link**
     ```html
     <a href="https://twitter.com/fcis_iu">FCIS Twitter</a>
     ```
 
-1. Division
+1. **Division**
     ```html
     <div>
         First division
@@ -88,7 +88,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
 
 ## Part 3: CSS Basics
 
-1. Further HTML structuring
+1. **HTML page structuring**
     ```html
     <!DOCTYPE html>
     <html>
@@ -104,7 +104,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
     </html>
     ```
 
-1. Text Color
+1. **Text Color**
     - CSS
         ```css
         .my-class-1 {
@@ -117,7 +117,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         ```
     - List of cool color hexes available here: https://flatuicolors.com/
 
-1. Font Size
+1. **Font Size**
     - CSS
         ```css
         .my-class-1 {
@@ -141,7 +141,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         <div class="my-class-4">This is my forth text</div>
         ```
 
-1. Font Family
+1. **Font Family**
     - CSS
         ```css
         .my-class-1 {
@@ -162,7 +162,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         ```
     - List of web safe fonts available here: http://web.mit.edu/jmorzins/www/fonts.html
 
-1. Text align
+1. **Text align**
     - CSS
         ```css
         .my-class-1 {
@@ -182,7 +182,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         <div class="my-class-3">This is my third text</div>
         ```
         
-1. Multiple properties in one class
+1. **Multiple properties in one class**
     - CSS
         ```css
         .my-text {
@@ -208,7 +208,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
 
 ## Part 4: More on CSS
 
-1. Cascading
+1. **Cascading**
     - CSS
         ```css
         .my-class-1 {
@@ -224,7 +224,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         <div class="my-class-2 my-class-1">This is my text</div>
         ```
 
-1. Multiple classes in one element
+1. **Multiple classes in one element**
     - CSS
         ```css
         .a {
@@ -239,7 +239,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         <div class="a b">This is my text</div>
         ```
 
-1. Box Model
+1. **Box Model**
     - CSS
         ```css
         .my-box {
@@ -271,7 +271,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         <div class="my-box">This is my text</div>
         ```
 
-1. Playing with boxes
+1. **Playing with boxes**
     - CSS
         ```css
         .text-styling {
@@ -321,7 +321,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         </div>
         ```
 
-1. Float positioning
+1. **Float positioning**
     - CSS
         ```css
         .box {
@@ -356,7 +356,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         </div>
         ```
 
-1. Box Shadow
+1. **Box Shadow**
     - CSS
         ```css
         .box {
@@ -399,8 +399,124 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-4-exercise/inde
 
 ## Part 5: PHP Basics
 
-1. PHP structure
-    ```php
+1. **PHP structure**
+    ```html
+    <?php
+        // Your PHP code here
+    ?>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Page Title</title>
+        <style>
+            /* Your CSS content here */
+        </style>
+    </head>
+    <body>
+        <!-- Your HTML content here -->
+    </body>
+    </html>
     ```
+1. **Variables**
+    - PHP
+        ```php
+        $var1 = 5;
+        $var2 = 10;
+        $total = $var1 + $var2;
+        $name = "Ahmad";
+        ```
+    - HTML
+        ```html
+        <div>
+            Hello, I'm <?= $name ?>. I have <?= $total ?> apples.
+        </div>
+        ```
+
+1. **For Loop**
+    - HTML
+        ```html
+        <ul>
+            <?php for ($i = 0; $i <= 10; $i++) { ?>
+                <li>Hello</li>
+            <?php } ?>
+        </ul>
+        ```
+
+1. **If Condition**
+    - PHP
+        ```php
+        $time = 8;
+        $greetings = "";
+
+        if ($time < 2000) {
+            $greetings = "It's morning";
+        } else {
+            $greetings = "It's afternoon";
+        }
+        ```
+    - HTML
+        ```html
+        <div>
+            Hey, <?= $greetings ?>
+        </div>
+        ```
+
+1. **Array**
+    - PHP
+        ```php
+        $brands = array("iPhone", "Samsung", "LG", "Huawei", "Sony");
+        ```
+    - HTML
+        ```html
+        <ul>
+            <?php for ($i = 0; $i < sizeof($brands); $i++) { ?>
+                <li>I like <?= $brands[$i] ?></li>
+            <?php } ?>
+        </ul>
+        ```
+
+1. **URL Parameters**
+    - PHP
+        ```php
+        error_reporting(0);
+
+        $current_page = $_GET['page'];
+        ```
+    - HTML
+        ```html
+        <h1>Hello, it is <?= $current_page ?> page</h1>
+        ```
+
+1. **URL Parameters with If Statements**
+    - PHP
+        ```php
+        error_reporting(0);
+
+        $current_page = $_GET['page'];
+        ```
+    - HTML
+        ```html
+        <?php if ($current_page = "contact") { ?>
+
+            <h1>Contact Me</h1>
+            <ul>
+                <li>Phone: 1234567890</li>
+                <li>Mail: 1234567890</li>
+            </ul>
+
+        <?php } else if ($current_page = "cats") { ?>
+
+            <h1>Photos of My Cats</h1>
+            <img src="https://placekitten.com/200/200">
+            <img src="https://placekitten.com/300/200">
+            <img src="https://placekitten.com/300/300">
+
+        <?php } else { ?>
+
+            <h1>Welcome!</h1>
+            <p>This is my first website</p>
+
+        <?php } ?>
+        ```
 
 ### Exercise
