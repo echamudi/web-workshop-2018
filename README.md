@@ -58,7 +58,7 @@ We will learn following HTML elements:
 
 1. Image
     ```html
-    <img src="http://placekitten.com/200/200">
+    <img src="https://placekitten.com/200/200">
     ```
 
 1. Link
@@ -116,28 +116,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         <div class="my-class-1">This is my text</div>
         ```
     - List of cool color hexes available here: https://flatuicolors.com/
-     
-1. Font Family
-    - CSS
-        ```css
-        .my-class-1 {
-            font-family: "Arial";
-        }
-        .my-class-2 {
-            font-family: "Times New Roman";
-        }
-        .my-class-3 {
-            font-family: "Georgia";
-        }        
-        ```
-    - HTML
-        ```html
-        <div class="my-class-1">This is my first text</div>
-        <div class="my-class-2">This is my second text</div>
-        <div class="my-class-3">This is my third text</div>
-        ```
-    - List of web safe fonts available here: http://web.mit.edu/jmorzins/www/fonts.html
-        
+
 1. Font Size
     - CSS
         ```css
@@ -161,6 +140,27 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
         <div class="my-class-3">This is my third text</div>
         <div class="my-class-4">This is my forth text</div>
         ```
+
+1. Font Family
+    - CSS
+        ```css
+        .my-class-1 {
+            font-family: "Arial";
+        }
+        .my-class-2 {
+            font-family: "Times New Roman";
+        }
+        .my-class-3 {
+            font-family: "Georgia";
+        }        
+        ```
+    - HTML
+        ```html
+        <div class="my-class-1">This is my first text</div>
+        <div class="my-class-2">This is my second text</div>
+        <div class="my-class-3">This is my third text</div>
+        ```
+    - List of web safe fonts available here: http://web.mit.edu/jmorzins/www/fonts.html
 
 1. Text align
     - CSS
