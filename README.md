@@ -544,3 +544,7 @@ http://ezh.me/demo/web-workshop-2018/part-5-exercise/
 Answer:
 
 https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-5-exercise/index.php
+
+## Further learning
+
+- [Learning PHP, MySQL & JavaScript, 5th Edition](https://www.oreilly.com/library/view/learning-php-mysql/9781491979075/)
