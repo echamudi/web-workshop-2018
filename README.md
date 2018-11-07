@@ -85,7 +85,7 @@ We will learn following HTML elements:
     
 ### Exercise
 
-Please make following page using HTML: 
+Please make the following page using HTML: 
 
 https://ezhmd.github.io/web-workshop-2018/part-2-exercise/
 
@@ -205,7 +205,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
 
 ### Exercise
 
-Please make following page:
+Please make the following page:
 
 https://ezhmd.github.io/web-workshop-2018/part-3-exercise/
 
@@ -399,10 +399,12 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         
 ### Exercise
 
-Please make following page: 
+Please make the following page: 
+
 https://ezhmd.github.io/web-workshop-2018/part-4-exercise/
 
 Answer:
+
 https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-4-exercise/index.html
 
 ## Part 5: PHP Basics
@@ -529,7 +531,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-4-exercise/inde
 
 ### Exercise
 
-Please make following page:
+Please make the following page:
 
 http://ezh.me/demo/web-workshop-2018/part-5-exercise/
 
