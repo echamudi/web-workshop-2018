@@ -3,13 +3,18 @@ Islamic University of Madinah Web Workshop 2018
 
 ## Part 1: Installing the softwares
 
-To start developing, we will use following tools:
-- NetBeans PHP: [Download for Windows](https://netbeans.org/downloads/start.html?platform=windows&lang=en&option=php&bits=x64)
-- XAMPP: [Download](https://www.apachefriends.org/index.html)
+To start developing, you can use following tools:
+
+- Editor
+    - NetBeans PHP: [Download for Windows](https://netbeans.org/downloads/start.html?platform=windows&lang=en&option=php&bits=x64)
+    - Visual Studio Code: [Download](https://code.visualstudio.com/)
+    - Notepad++: [Download](https://notepad-plus-plus.org/)
+
+- Server
+    - XAMPP: [Download](https://www.apachefriends.org/index.html)
 
 ## Part 2: HTML basics
 
-We will learn following HTML elements:
 1. **Headings**
     ```html
     <h1>Heading 1</h1>
