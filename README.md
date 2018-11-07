@@ -6,12 +6,12 @@ Islamic University of Madinah Web Workshop 2018
 To start developing, you can use following tools:
 
 - Editor
-    - NetBeans PHP **recommended**: [Download for Windows](https://netbeans.org/downloads/start.html?platform=windows&lang=en&option=php&bits=x64)
+    - NetBeans PHP **(recommended)**: [Download for Windows](https://netbeans.org/downloads/start.html?platform=windows&lang=en&option=php&bits=x64)
     - Visual Studio Code: [Download](https://code.visualstudio.com/)
     - Notepad++: [Download](https://notepad-plus-plus.org/)
 
 - Server
-    - XAMPP **recommended**: [Download](https://www.apachefriends.org/index.html)
+    - XAMPP **(recommended)**: [Download](https://www.apachefriends.org/index.html)
     - Manual installation for Mac: [Guide](https://getgrav.org/blog/macos-mojave-apache-multiple-php-versions)
 
 ## Part 2: HTML basics
