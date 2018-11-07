@@ -205,7 +205,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-2-exercise/inde
 
 ### Exercise
 
-Please make following page using HTML:
+Please make following page:
 
 https://ezhmd.github.io/web-workshop-2018/part-3-exercise/
 
@@ -399,10 +399,10 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         
 ### Exercise
 
-Please make following page using HTML : 
+Please make following page: 
 https://ezhmd.github.io/web-workshop-2018/part-4-exercise/
 
-Answer :
+Answer:
 https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-4-exercise/index.html
 
 ## Part 5: PHP Basics
@@ -504,7 +504,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-4-exercise/inde
         ```
     - HTML
         ```html
-        <?php if ($current_page = "contact") { ?>
+        <?php if ($current_page == "contact") { ?>
 
             <h1>Contact Me</h1>
             <ul>
@@ -512,7 +512,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-4-exercise/inde
                 <li>Mail: 1234567890</li>
             </ul>
 
-        <?php } else if ($current_page = "cats") { ?>
+        <?php } else if ($current_page == "cats") { ?>
 
             <h1>Photos of My Cats</h1>
             <img src="https://placekitten.com/200/200">
@@ -528,3 +528,11 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-4-exercise/inde
         ```
 
 ### Exercise
+
+Please make following page:
+
+http://ezh.me/demo/web-workshop-2018/part-5-exercise/
+
+Answer:
+
+https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-5-exercise/index.php
