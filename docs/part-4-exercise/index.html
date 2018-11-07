@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Website</title>
+    <title>My First Website</title>
     <style>
         body {
             background: #e1e4e8;
@@ -20,15 +20,7 @@
             font-size: 16px;
         }
 
-        .image {
-            float: right;
-
-            padding: 5px;
-
-            background: #c8e1ff;
-        }
-
-        .box {
+        .header-box {
             padding: 20px;
             margin: 10px;
 
@@ -38,26 +30,62 @@
             border-width: 2px;
             border-color: #c8e1ff;
         }
+
+        .main-title {
+            text-align: center;
+            font-family: "Helvetica";
+            color: #227093;
+            font-size: 45px;
+        }
+
+        .email {
+            font-family: "Arial";
+            color: #3d3d3d;
+            text-align: center;
+        }
+
+        .image {
+            float: right;
+            text-align: center;
+            padding: 5px;
+            background: #c8e1ff;
+
+        }
+
+        .another-title {
+            font-family: "Helvetica";
+            color: #227093;
+        }
+
+        .text {
+            font-family: "Arial";
+            color: #3d3d3d;
+        }
     </style>
 </head>
 <body>
     <div class="page">
-        <img class="image" src="https://placekitten.com/300/300">    
-        <div class="box">
-            <h1>Your Name Here</h1>
-            <p>yourname@gmail.com</p>
+        <div class="header-box">
+            <div class="image">
+                <img src="https://placekitten.com/300/300">
+            </div>
+            <h1 class="main-title">Your Name Here</h1>
+            <p class="email">yourname@gmail.com</p>
         </div>
-        <h2>Profile</h2>
-        <ol>
+        
+        <hr>
+        
+        <h2 class="another-title">Profile</h2>
+        <ol class="text">
             <li><b>Birthdate:</b> 6/10/1800</li>
             <li><b>Hair Color:</b> Black</li>
             <li><b>Height:</b> 170 cm</li>
             <li><b>Weight:</b> 70 kg</li>
             <li><b>Country:</b> Italy</li>
         </ol>
-    
-        <h2>Social Media</h2>
-        <ul>
+        
+        <h2 class="another-title">Social Media</h2>
+        <ul class="text">
             <li><a href="https://twitter.com/fcis_iu">Twitter</a></li>
             <li><a href="https://github.com/ezhmd">Github</a></li>
         </ul>

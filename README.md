@@ -26,18 +26,25 @@ We will learn following HTML elements:
     ```
 
 1. **Ordered List and Unordered List**
-    ```html
-    <ol>
-        <li>Chocolate</li>
-        <li>Candy</li>
-        <li>Apple</li>
-    </ol>
-    <ul>
-        <li>Car</li>
-        <li>Motorcycle</li>
-        <li>Aeroplane</li>
-    </ul>
-    ```
+
+    - Ordered List
+        ```html
+        <ol>
+            <li>Chocolate</li>
+            <li>Candy</li>
+            <li>Apple</li>
+        </ol>
+        ```
+    
+    - Unordered List
+        ```html
+        <ul>
+            <li>Car</li>
+            <li>Motorcycle</li>
+            <li>Aeroplane</li>
+        </ul>
+        ```
+
 1. **Horizontal Rules**
     ```html
     <hr>
@@ -208,22 +215,6 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
 
 ## Part 4: More on CSS
 
-1. **Cascading**
-    - CSS
-        ```css
-        .my-class-1 {
-            color: red;
-        }
-        .my-class-2 {
-            color: blue;
-        }
-        ```
-    - HTML
-        ```html
-        <div class="my-class-1 my-class-2">This is my text</div>
-        <div class="my-class-2 my-class-1">This is my text</div>
-        ```
-
 1. **Multiple classes in one element**
     - CSS
         ```css
@@ -239,15 +230,35 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         <div class="a b">This is my text</div>
         ```
 
+1. **Cascading**
+    - CSS
+        ```css
+        .a {
+            color: red;
+        }
+        .b {
+            color: blue;
+        }
+        ```
+    - HTML
+        ```html
+        <div class="a b">This is my text</div>
+        ```
+
 1. **Box Model**
     - CSS
         ```css
         .my-box {
+            background: #33d9b2;
+
+            width: 500px;
+            height: 200px;
+
             margin-top: 20px;
             margin-right: 20px;
             margin-bottom: 20px;
             margin-left: 20px;
-       
+
             border-color: #3d3d3d;
             border-width: 5px;
             border-style: solid;
@@ -256,12 +267,7 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
             padding-right: 30px;
             padding-bottom: 30px;
             padding-left: 30px;
-
-            width: 500px;
-            height: 200px;
-             
-            background: #33d9b2;
-
+            
             font-size: 30px;
             font-family: "Helvetica";
         }
@@ -281,31 +287,33 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-3-exercise/inde
         }
 
         .box-1 {
+            background: #6c5ce7;
+
             width: 400px;
             height: 200px;
 
             margin: 5px;
             padding: 10px;
-
-            background: #6c5ce7;
         }
+
         .box-2 {
+            background: #0984e3;
+
             width: 300px;
             height: 100px;
 
             margin: 5px;
             padding: 10px;
-
-            background: #0984e3;
         }
+
         .box-3 {
+            background: #00cec9;
+
             width: 100px;
             height: 100px;
 
             margin: 5px;
             padding: 10px;
-
-            background: #00cec9;
         }
         ```
     - HTML
