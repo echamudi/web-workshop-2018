@@ -548,3 +548,15 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-5-exercise/inde
 ## Further learning
 
 - [Learning PHP, MySQL & JavaScript, 5th Edition](https://www.oreilly.com/library/view/learning-php-mysql/9781491979075/)
+
+## Authors
+
+* **Ezzat Chamudi** - [ezhmd](https://github.com/ezhmd)
+
+## Licenses
+
+Code released under [AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html). 
+
+Images, logos, docs, and articles released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). 
+
+Libraries, dependencies, and tools used in this project tied with their own licenses respectively.
