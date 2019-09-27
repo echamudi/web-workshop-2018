@@ -553,8 +553,6 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-5-exercise/inde
 
 * **Ezzat Chamudi** - [ezhmd](https://github.com/ezhmd)
 
-See also the list of [contributors](https://github.com/ezhmd/{{ repo }}/graphs/contributors) who participated in this project.
-
 ## License
 
 Code and documentation copyright 2018 the [Web Workshop 2018 Authors](). 
