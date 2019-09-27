@@ -553,10 +553,12 @@ https://github.com/ezhmd/web-workshop-2018/blob/master/docs/part-5-exercise/inde
 
 * **Ezzat Chamudi** - [ezhmd](https://github.com/ezhmd)
 
-## Licenses
+See also the list of [contributors](https://github.com/ezhmd/{{ repo }}/graphs/contributors) who participated in this project.
 
-Code released under [AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html). 
+## License
 
-Images, logos, docs, and articles released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). 
+Code and documentation copyright 2018 the [Web Workshop 2018 Authors](). 
 
-Libraries, dependencies, and tools used in this project tied with their own licenses respectively.
+Web Workshop 2018 code is licensed under [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0). Images, logos, docs, and articles in this Web Workshop 2018 project are released under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+
+Libraries, dependencies, and tools used in this project aret tied with their own licenses respectively.
