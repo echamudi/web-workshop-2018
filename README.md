@@ -559,4 +559,4 @@ Code and documentation copyright 2018 the [Web Workshop 2018 Authors](https://gi
 
 Web Workshop 2018 code is licensed under [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0). Images, logos, docs, and articles in this Web Workshop 2018 project are released under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
-Libraries, dependencies, and tools used in this project aret tied with their own licenses respectively.
+Libraries, dependencies, and tools used in this project are tied with their own licenses respectively.
